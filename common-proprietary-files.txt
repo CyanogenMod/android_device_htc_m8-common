@@ -139,7 +139,7 @@ lib/libtuning_awb_ov2722_subcam.so
 lib/libtuning_awb_ov4688.so
 lib/libtuning_awb_s5k5e.so
 lib/libtuning_awb_vd6869.so
-lib/hw/camera.vendor.msm8974.so
+lib/hw/camera.msm8974.so
 vendor/lib/libchromatix_ov2722_common.so
 vendor/lib/libchromatix_ov2722_default_video.so
 vendor/lib/libchromatix_ov2722_preview.so
@@ -219,7 +219,7 @@ vendor/lib/libizat_core.so
 vendor/lib/liblbs_core.so
 
 # HTC / Other
--app/EasyAccessService/EasyAccessService.apk:app/EasyAccessService.apk
+-app/EasyAccessService/EasyAccessService.apk:priv-app/EasyAccessService/EasyAccessService.apk
 bin/ATFWD-daemon
 bin/hcheck
 bin/hci_qcomm_init
@@ -242,10 +242,10 @@ etc/firmware/ILP0100_IPM_Data_out.bin
 etc/firmware/lscbuffer_rev2.bin
 
 # IRDA
--app/CIRModule/CIRModule.apk:app/CIRModule.apk
+##-app/CIRModule/CIRModule.apk:app/CIRModule.apk
 bin/cir_fw_update
 etc/cir.img
--framework/htcirlibs.jar
+##-framework/htcirlibs.jar
 lib/hw/consumerir.default.so
 lib/libhtcirinterface_jni.so
 
@@ -272,16 +272,16 @@ bin/time_daemon
 
 # TZBSP
 bin/qseecomd
-vendor/firmware/cmnlib.b00
-vendor/firmware/cmnlib.b01
-vendor/firmware/cmnlib.b02
-vendor/firmware/cmnlib.b03
-vendor/firmware/cmnlib.mdt
-vendor/firmware/keymaster/keymaster.b00
-vendor/firmware/keymaster/keymaster.b01
-vendor/firmware/keymaster/keymaster.b02
-vendor/firmware/keymaster/keymaster.b03
-vendor/firmware/keymaster/keymaster.mdt
+etc/firmware/cmnlib.b00
+etc/firmware/cmnlib.b01
+etc/firmware/cmnlib.b02
+etc/firmware/cmnlib.b03
+etc/firmware/cmnlib.mdt
+vendor/firmware/keymaster.b00
+vendor/firmware/keymaster.b01
+vendor/firmware/keymaster.b02
+vendor/firmware/keymaster.b03
+vendor/firmware/keymaster.mdt
 vendor/lib/libdrmdiag.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
@@ -300,19 +300,19 @@ vendor/lib/libwvdrm_L1.so
 vendor/lib/libwvm.so
 vendor/lib/libDivxDrm.so
 vendor/lib/libSHIMDivxDrm.so
-vendor/lib/libWVphoneAPI.so
+app/Videos/lib/arm/libWVphoneAPI.so
 vendor/lib/libWVStreamControlAPI_L1.so
 vendor/lib/drm/libdrmwvmplugin.so
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
 
 # WLAN firmware
-vendor/firmware/wcnss.b00
-vendor/firmware/wcnss.b01
-vendor/firmware/wcnss.b02
-vendor/firmware/wcnss.b04
-vendor/firmware/wcnss.b06
-vendor/firmware/wcnss.b07
-vendor/firmware/wcnss.b08
-vendor/firmware/wcnss.b09
-vendor/firmware/wcnss.mdt
+#vendor/firmware/wcnss.b00
+#vendor/firmware/wcnss.b01
+#vendor/firmware/wcnss.b02
+#vendor/firmware/wcnss.b04
+#vendor/firmware/wcnss.b06
+#vendor/firmware/wcnss.b07
+#vendor/firmware/wcnss.b08
+#vendor/firmware/wcnss.b09
+#vendor/firmware/wcnss.mdt
